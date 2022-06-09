@@ -37,10 +37,11 @@ body {
 /*header section*/
 
 .hero_area {
-  background-color: #2801b9;
-  background-image: url(../images/hero.jpg);
+  background-color: #29589f;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-position: center;
+  background-position-y: 270px;
+  background-size: 130px
 }
 
 .header_section .container-fluid {
@@ -173,17 +174,6 @@ a:focus {
   box-shadow: none;
 }
 
-.custom_nav-container .nav_search-btn {
-  background-image: url(../images/search-icon.png);
-  background-size: 18px;
-  background-repeat: no-repeat;
-  width: 35px;
-  height: 35px;
-  padding: 0;
-  border: none;
-  margin: 0 40px 0 15px;
-  background-position: center;
-}
 
 .navbar-brand {
   display: flex;
@@ -288,7 +278,7 @@ a:focus {
 }
 
 .slider_item-imgbox img {
-  width: 100%;
+  width: 80%;
 }
 
 .slider_section #carouselExampleControls,
@@ -501,6 +491,8 @@ a:focus {
 
 .form_bg {
   background-color: #2801b9;
+  border-radius: 20px;
+
 }
 
 .contact_section h2 {
