@@ -344,9 +344,10 @@ a:focus {
   font-weight: 600;
 }
 
-.about_card-container {
+.about_card-container{
   display: flex;
   justify-content: center;
+  
 }
 
 .about_card .about-detail {
@@ -447,7 +448,7 @@ a:focus {
 }
 
 .feature_img-container {
-  background-color: #1ba1b9;
+  background-color: #5087ce;
   display: flex;
   justify-content: center;
   align-items: center;
